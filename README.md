@@ -11,3 +11,5 @@ Using Faster R-CNN on a small VOC dataset to achieve object detection
 Loss：
 <img width="1529" height="700" alt="image" src="https://github.com/user-attachments/assets/95b18389-4339-444d-82ad-4993190e9b01" />
 <img width="1558" height="693" alt="image" src="https://github.com/user-attachments/assets/0b945127-85d7-4d35-b620-bed7f9fb8471" />
+<img width="1564" height="705" alt="image" src="https://github.com/user-attachments/assets/23b1e711-8c9b-4f85-a0fa-8f8edbd69227" />
+<img width="1505" height="735" alt="image" src="https://github.com/user-attachments/assets/e929263a-80a6-4a29-8f99-caf143910b8d" />
