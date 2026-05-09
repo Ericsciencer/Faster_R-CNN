@@ -3,9 +3,9 @@
 [中文简介](#简介) | [English](#introduction)
 
 ### 结果 | Result  
-本实验使用 **MobileNet V3-Large + FPN** 作为骨干网络，在自定义 VOC 2007 子集（仅 bird、cat、dog 三类）上完成了 Faster R-CNN 的复现。训练 20 个 epoch 后，模型可对图像中的目标给出合理的检测框，但仍存在少量假阳性与定位偏差。该现象主要源于数据集规模有限、超参数未经精细搜索，以及轻量骨干在极小数据集上容易过拟合等因素。  
-
-Faster R-CNN 作为 Fast R-CNN 的升级版本，革命性地引入**区域建议网络（RPN）**，首次将候选区域生成与目标检测统一在同一个端到端可训练网络中。本次复现的目的在于**跑通流程、理解 RPN 与共享卷积的核心思想**，同时探索移动端友好骨干（MobileNetV3+FPN）在检测任务中的快速部署潜力。因此未做深度调参，评价指标仅供参考，重点在于验证架构与学习关键模块。
+<img width="1268" height="586" alt="loss_curve" src="https://github.com/user-attachments/assets/30ef8be9-2723-4667-b184-7a48653bc6fe" />
+<img width="1268" height="586" alt="map_curve" src="https://github.com/user-attachments/assets/c01a7eac-9292-4f57-805a-1908f490fefe" />
+<img width="723" height="985" alt="test_detect" src="https://github.com/user-attachments/assets/dbc3e484-6daf-410c-8b91-c2ca04bc0dbf" />
 
 ---
 
